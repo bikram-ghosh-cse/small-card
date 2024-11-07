@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body{
+  padding: 55px;
+  display: flex;
+}
+
 .container {
   background-color: antiquewhite;
   height: 450px;
@@ -13,10 +18,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.content{
-  
+  margin-left: 24px;
 }
 
 .image {
@@ -35,19 +37,28 @@
 }
 
 h1 {
-  margin: 20px 15px 20px 15px;
+  margin: 17px 15px 17px 15px;
 }
 
 p {
   margin: 0px 15px;
 }
 
-.link {
+.link{
+  text-align: center;
+}
+ button {
   background-color: rgb(219, 219, 247);
   border-radius: 20px;
   padding: 10px;
-  display: inline-block;
   margin: 10px;
-  margin-left: 30%;
   color: rgb(7, 7, 239);
+  border: none;
+  cursor: pointer;
 }
+
+.link button:hover{
+  background-color: rgb(9, 144, 255);
+  color: rgb(255, 255, 255);
+}
+
